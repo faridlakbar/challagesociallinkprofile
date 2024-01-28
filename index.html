@@ -16,9 +16,11 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
       body {
         background: hsl(0, 0%, 8%);
         color: hsl(0, 0%, 100%);
+        font-size: 14px;
         margin: 0;
         padding: 0;
         display: flex;
@@ -30,30 +32,43 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 50px;
-        padding: 25px;
-        border-radius: 20px;
+        margin: 125px;
+        padding: 30px;
+        border-radius: 15px;
+      }
+      h1 {
+        padding-top: 25px;
+        font-size: 25px;
+        font-weight: 700;
+        margin-block: 3px;
       }
       h2 {
+        margin-top: 10px;
+        font-weight: 600;
         color: hsl(75, 94%, 57%);
       }
       h2,
-      h3 {
-        font-size: 1rem;
+      p {
+        font-size: 14px;
+      }
+      p {
+        margin-bottom: 0;
       }
       img {
         margin-inline: 50px;
-        width: 50%;
+        width: 30%;
         border-radius: 100px;
       }
       button {
         background-color: hsl(0, 0%, 20%);
         color: hsl(0, 0%, 100%);
+        font-size: 14px;
+        font-weight: 700;
         border-radius: 10px;
         border-style: none;
-        width: 100%;
-        padding: 10px;
-        margin-top: 25px;
+        width: 275px;
+        padding: 15px;
+        margin-top: 15px;
       }
       .attribution {
         font-size: 11px;
@@ -69,7 +84,7 @@
       <img src="./assets/images/avatar-jessica.jpeg" alt="" />
       <h1>Jessica Randall</h1>
       <h2>London, United Kingdom</h2>
-      <h3>"Front-end developer and avid reader."</h3>
+      <p>"Front-end developer and avid reader."</p>
       <button>GitHub</button>
       <button>Frontend Mentor</button>
       <button>LinkedIn</button>
